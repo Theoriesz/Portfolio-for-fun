@@ -118,13 +118,15 @@ nav a:hover {
 
     font-size: clamp(40px, 8vw, 80px);
     line-height: 1.05;
-    margin: 0 0 16px;
+    margin: 0 0 4px;
 
 }
 
 #hero p {
 
+    font-size: 20px;
     color: var(--accent);
+    margin: 0 0 24px;
 
 }
 
