@@ -14,6 +14,18 @@ header {
 
 }
 
+main {
+
+    padding:  0 40px;
+
+}
+
+section {
+
+    padding: 60px 0;
+
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: var(--bg);
@@ -49,5 +61,41 @@ nav a {
 nav a:hover {
 
     color: var(--text);
+
+}
+
+.btn {
+
+    display: inline-flex;
+    padding: 12px 28px;
+    border: 2px solid var(--accent);
+    border-radius: 8px;
+    text-decoration: none;
+    margin-right: 12px;
+
+}
+
+.btn-primary {
+
+    background-color: var(--accent);
+    color: var(--bg);
+
+}
+
+.btn:hover {
+
+    opacity: 0.85;
+
+}
+
+#hero p {
+
+    font-size: 28px;
+
+}
+
+footer {
+
+    padding: 20px 40px;
 
 }
