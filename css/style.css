@@ -46,15 +46,21 @@ body {
     display: flex;
     gap: 24px;
     margin-top: 32px;
-
 }
 
 .card {
 
     flex: 1;
     padding: 32px;
+    transition: transform 0.2s ease;
     background-color: var(--surface);
     border-radius: 16px;
+
+}
+
+.card:hover {
+
+    transform: translateY(-6px);
 
 }
 
@@ -62,6 +68,15 @@ body {
 
     margin-top: 0;
     color: var(--accent);
+
+}
+
+.project-grid {
+
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap:  24px;
+    margin-top: 32px;
 
 }
 
