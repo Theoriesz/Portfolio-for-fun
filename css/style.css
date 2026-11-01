@@ -1,3 +1,10 @@
 body {
-    background-color: lightblue ;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5 ;
+    color: teal;
+    margin: 0;
+}
+
+h1 {
+    color: black;
 }
