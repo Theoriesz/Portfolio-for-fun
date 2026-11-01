@@ -2,7 +2,7 @@
     --bg: #17141f;
     --text: #ebe7f2;
     --accent: #ff9f68;
-
+    --surface: #221d2e;
 }
 
 .logo img {
@@ -38,6 +38,30 @@ body {
     background-color: var(--bg);
     color: var(--text);
     margin: 0;
+
+}
+
+.cards {
+
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+
+}
+
+.card {
+
+    flex: 1;
+    padding: 32px;
+    background-color: var(--surface);
+    border-radius: 16px;
+
+}
+
+.cards h3 {
+
+    margin-top: 0;
+    color: var(--accent);
 
 }
 
