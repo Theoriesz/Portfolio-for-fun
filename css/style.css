@@ -80,42 +80,24 @@ body {
 
 }
 
-h1 {
+.job {
 
-    margin: 0;
-}
-
-a {
-    color: var(--accent);
+    border-left: 3px solid var(--accent);
+    padding-left: 24px;
+    margin-top: 32px;
 
 }
 
-nav ul {
-    align-items: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 24px;
+.job h3 {
+
+    margin: 0 0 4px;
 
 }
 
-nav a {
+.job-meta {
 
-    text-decoration: none;
-}
-
-nav .btn {
-
-    margin-right: 0;
-    padding: 6px 16px;
-
-}
-
-
-nav a:hover {
-
-    color: var(--text);
+    margin: 0 0 12px;
+    opacity: 0.7;
 
 }
 
@@ -169,8 +151,63 @@ nav a:hover {
 
 }
 
+#contact {
+
+    text-align: center;
+
+}
+
+#contact .btn {
+
+    margin-right: 0;
+
+}
+
+h1 {
+
+    margin: 0;
+}
+
+a {
+    color: var(--accent);
+
+}
+
+nav ul {
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 24px;
+
+}
+
+nav a {
+
+    text-decoration: none;
+}
+
+nav .btn {
+
+    margin-right: 0;
+    padding: 6px 16px;
+
+}
+
+
+nav a:hover {
+
+    color: var(--text);
+
+}
+
+
+
 footer {
 
-    padding: 20px 40px;
+    padding: 24px 40px;
+    border-top: 1px solid var(--surface);
+    text-align: center;
 
 }
