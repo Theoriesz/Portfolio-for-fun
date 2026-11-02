@@ -20,6 +20,10 @@ html {
 
 header {
 
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: var(--bg);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,6 +39,7 @@ main {
 
 section {
 
+    scroll-padding-top: 80px;
     padding: 60px 0;
 
 }
@@ -44,6 +49,13 @@ body {
     background-color: var(--bg);
     color: var(--text);
     margin: 0;
+
+}
+
+a:focus-visible, button:focus-visible {
+
+    outline: 3px solid var(--text);
+    outline-offset: 4px;
 
 }
 
@@ -242,12 +254,6 @@ footer {
     .cards {
 
         flex-direction: column;
-
-    }
-
-    header {
-
-        position: relative;
 
     }
 
