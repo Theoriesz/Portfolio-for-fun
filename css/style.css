@@ -243,6 +243,20 @@ footer {
 
 }
 
+@media (prefers-reduced-motion: reduce) {
+    
+    html {
+
+        scroll-behavior: auto;
+    }
+
+    .card {
+
+        transition: none;
+    }
+
+}
+
 @media (max-width: 768px) {
 
     .project-grid {
