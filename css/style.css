@@ -1,3 +1,9 @@
+html {
+
+    scroll-behavior: smooth;
+
+}
+
 :root {
     --bg: #17141f;
     --text: #ebe7f2;
@@ -267,7 +273,7 @@ footer {
     nav.open ul {
 
         display: flex;
-        
+
     }
 
     header, footer {
